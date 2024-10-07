@@ -49,8 +49,8 @@ ci-test: install-deps-dev format-check lint test ## run CI tests
 # Docker
 # ---
 DOCKER_REPO_NAME ?= ks6088ts
-DOCKER_IMAGE_NAME ?= template-python
-DOCKER_COMMAND ?= python template_python/core.py
+DOCKER_IMAGE_NAME ?= sandbox-gpt-researcher
+DOCKER_COMMAND ?=
 
 # Tools
 TOOLS_DIR ?= $(HOME)/.local/bin
